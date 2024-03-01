@@ -19,7 +19,7 @@ redirect_URI = 'http://localhost:3000/callback'
 auth_URL = 'https://accounts.spotify.com/authorize'
 token_URL = 'https://accounts.spotify.com/api/token'
 base_URL = 'https://api.spotify.com/v1/'
-sql_connection = sqlite3.connect('user_tracks.db', check_same_thread=False)
+sql_connection = sqlite3.connect('spotify_data.db', check_same_thread=False)
 cur = sql_connection.cursor()
 user_data = ''
 artist_data = ''
