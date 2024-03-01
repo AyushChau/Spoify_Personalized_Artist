@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Artist Tracks</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/artist_result.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div id="re-search">
+            <form action="/artist_songs" method="get">
+                <input id = "input" type="text" name="artist_name" placeholder="Search for an artist">
+                <button type="submit" id="submit">Search</button>
+            </form>
+        </div>
+        <div id="results">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Song Name</th>
+                        <th>Match</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if table %}
+                        {% for row in table %}
+                            <tr>
+                                <td><img src="{{ row['image'] }}" alt="Image" id="Image"></td>
+                                <td id="Song_name">{{row['song_name']}}</td>
+                                <td>
+                                    <div class="circular-progress-bar-container">
+                                      <svg class="circular-progress-bar" viewBox="0 0 100 100">
+                                        <circle class="circular-progress-bar-background" cx="50" cy="50" r="45"></circle>
+                                        <circle class="circular-progress-bar-fill" cx="50" cy="50" r="45" style="stroke-dasharray: {{ row['Temp'] * 2.835}}, {{ 283.5 - (row['Temp'] * 2.835)}}; stroke-dashoffset: 71.55;"></circle>
+                                      </svg>
+                                      <span class="temperature-value">{{ row['Temp'] }}</span>
+                                    </div>
+                                </td>                                                                                      
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="3">No data available</td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            
+            </table>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Spotify Artist Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search_page.css') }}">
+</head>
+<body>
+    <form action="/artist_songs" method="get">
+        <input id = "input" type="text" name="artist_name" placeholder="Search for an artist">
+        <button type="submit" id="submit">Search</button>
+    </form>
+</body>
+</html>

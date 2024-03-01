@@ -1,0 +1,40 @@
+
+body{
+    background-color: #121212;
+    position: absolute;
+    top:45%;
+    left:35%;
+}
+
+
+
+#input{
+    width: 400px;
+    border: 5px solid #1DB954;
+    background: #f2f1f1;
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 25px;
+    color: #1DB954;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#submit{
+    border-radius: 100px;
+    width: 160px;
+    font-size: 30px;
+    background-color: #1DB954;
+    border: 5px solid #1DB954;
+    color: #f2f1f1;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0%;
+    left: 105%;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+}
+
+
