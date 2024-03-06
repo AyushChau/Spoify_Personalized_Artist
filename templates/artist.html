@@ -32,9 +32,9 @@
                                     <div class="circular-progress-bar-container">
                                       <svg class="circular-progress-bar" viewBox="0 0 100 100">
                                         <circle class="circular-progress-bar-background" cx="50" cy="50" r="45"></circle>
-                                        <circle class="circular-progress-bar-fill" cx="50" cy="50" r="45" style="stroke-dasharray: {{ row['Temp'] * 2.835}}, {{ 283.5 - (row['Temp'] * 2.835)}}; stroke-dashoffset: 71.55;"></circle>
+                                        <circle class="circular-progress-bar-fill" cx="50" cy="50" r="45" style="stroke-dasharray: {{ row['Match'] * 2.835}}, {{ 283.5 - (row['Match'] * 2.835)}}; stroke-dashoffset: 71.55;"></circle>
                                       </svg>
-                                      <span class="temperature-value">{{ row['Temp'] }}</span>
+                                      <span class="temperature-value">{{ row['Match'] }}</span>
                                     </div>
                                 </td>                                                                                      
                             </tr>

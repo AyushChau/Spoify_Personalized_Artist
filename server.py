@@ -9,9 +9,10 @@ import json
 import sqlite3
 import pandas as pd
 import numpy as np
-from concurrent.futures import ThreadPoolExecutor
 import aiohttp
 import asyncio
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics.pairwise import cosine_similarity
 
 id = os.getenv("CLIENT_ID")
 secret = os.getenv('CLIENT_SEC')
@@ -60,7 +61,7 @@ async def fetch_tracks(time_range,header):
 async def get_user_track_ids():
 
     header = get_auth_header(session['access_token'])
-    time_ranges = ['medium_term'] #Figure out how to make this shit faster!!!
+    time_ranges = ['medium_term','short_term'] #Figure out how to make this shit faster!!!
     all_tracks = []
     tasks = []
 
@@ -110,7 +111,7 @@ def artist_songs(artist_name):
     tracks = []
     header = get_auth_header(session['access_token'])
 
-    while offset <= 40:
+    while offset <= 300:
         result = requests.get(url,headers=header)
         json_result = json.loads(result.content)
         for items in json_result['tracks']['items']:
@@ -121,6 +122,30 @@ def artist_songs(artist_name):
 
     return tracks
 
+def calculate_match():
+    global user_data,artist_data
+
+    temp_user = user_data.drop(columns=['id','song_name'])
+    temp_artist = artist_data.drop(columns=['id','song_name','image'])
+
+    min_range = -1
+    max_range = 1
+
+    scaler = MinMaxScaler(feature_range=(min_range, max_range))
+
+    df_user_norm = pd.DataFrame(scaler.fit_transform(temp_user),columns=temp_user.columns)
+    df_artist_norm = pd.DataFrame(scaler.fit_transform(temp_artist),columns=temp_artist.columns)
+
+    summed_vector = np.array(df_user_norm.mean())
+
+
+    cosine_similarities = []
+    for index,row in df_artist_norm.iterrows():
+        row_vector = row.values
+        cos_sim = cosine_similarity([row_vector],[summed_vector])[0][0]
+        cosine_similarities.append(np.round((cos_sim+1)*50,0))
+
+    artist_data['Match'] = cosine_similarities
 
 @app.route('/')
 def index():
@@ -183,8 +208,8 @@ async def get_user_tracks():
         return redirect('/login')
 
     else:
-        #track_ids = await get_user_track_ids()
-        #populate_dataframe(track_ids,'user')
+        track_ids = await get_user_track_ids()
+        populate_dataframe(track_ids,'user')
         return render_template('search_page.html')
     
 
@@ -198,10 +223,9 @@ def get_artist_songs():
     else:
         song_ids = artist_songs(request.args.get('artist_name'))
         populate_dataframe(song_ids,'artist')
-        
-        artist_data['Temp'] = 20
-
-        return render_template('artist.html',table=artist_data[['song_name','image','Temp']].to_dict(orient='records'))
+        calculate_match()
+        artist_data.sort_values(by='Match',ascending=False,inplace=True)
+        return render_template('artist.html',table=artist_data[['song_name','image','Match']].to_dict(orient='records'))
 
 
 @app.route('/refresh_token')
