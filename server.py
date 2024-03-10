@@ -136,7 +136,7 @@ def calculate_match():
     df_user_norm = pd.DataFrame(scaler.fit_transform(temp_user),columns=temp_user.columns)
     df_artist_norm = pd.DataFrame(scaler.fit_transform(temp_artist),columns=temp_artist.columns)
 
-    kmeans = KMeans(n_clusters=4)
+    kmeans = KMeans(n_clusters=5)
     kmeans.fit(df_user_norm)
 
     centers = kmeans.cluster_centers_
