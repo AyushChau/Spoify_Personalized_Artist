@@ -11,8 +11,9 @@ import pandas as pd
 import numpy as np
 import aiohttp
 import asyncio
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.cluster import KMeans
 
 id = os.getenv("CLIENT_ID")
 secret = os.getenv('CLIENT_SEC')
@@ -96,12 +97,14 @@ def populate_dataframe(ids,context):
             inserter.append([id_chunks[i][j],result_song['tracks'][j]['name'],result_feature['audio_features'][j]['acousticness'],result_feature['audio_features'][j]['danceability'],result_feature['audio_features'][j]['energy'],result_feature['audio_features'][j]['instrumentalness'],result_feature['audio_features'][j]['liveness'],result_feature['audio_features'][j]['loudness'],result_feature['audio_features'][j]['mode'],result_feature['audio_features'][j]['speechiness'],result_feature['audio_features'][j]['tempo'],result_feature['audio_features'][j]['valence']])
         cur.executemany('INSERT INTO user_tracks VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',inserter)
         user_data = pd.read_sql_query("SELECT * from user_tracks",sql_connection)
+        user_data.to_csv('user.csv')
     elif context == 'artist':
         cur.execute('DELETE FROM artist_tracks')
         for j in range(len(id_chunks[i])):
             inserter.append([id_chunks[i][j],result_song['tracks'][j]['name'],result_song['tracks'][j]['album']['images'][0]['url'],result_feature['audio_features'][j]['acousticness'],result_feature['audio_features'][j]['danceability'],result_feature['audio_features'][j]['energy'],result_feature['audio_features'][j]['instrumentalness'],result_feature['audio_features'][j]['liveness'],result_feature['audio_features'][j]['loudness'],result_feature['audio_features'][j]['mode'],result_feature['audio_features'][j]['speechiness'],result_feature['audio_features'][j]['tempo'],result_feature['audio_features'][j]['valence']])
         cur.executemany('INSERT INTO artist_tracks VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)',inserter)
         artist_data = pd.read_sql_query("SELECT * from artist_tracks",sql_connection)
+        artist_data.to_csv('artist.csv')
 
 def artist_songs(artist_name):
 
@@ -128,21 +131,20 @@ def calculate_match():
     temp_user = user_data.drop(columns=['id','song_name'])
     temp_artist = artist_data.drop(columns=['id','song_name','image'])
 
-    min_range = -1
-    max_range = 1
-
-    scaler = MinMaxScaler(feature_range=(min_range, max_range))
+    scaler = StandardScaler()
 
     df_user_norm = pd.DataFrame(scaler.fit_transform(temp_user),columns=temp_user.columns)
     df_artist_norm = pd.DataFrame(scaler.fit_transform(temp_artist),columns=temp_artist.columns)
 
-    summed_vector = np.array(df_user_norm.mean())
+    kmeans = KMeans(n_clusters=4)
+    kmeans.fit(df_user_norm)
 
+    centers = kmeans.cluster_centers_
 
     cosine_similarities = []
     for index,row in df_artist_norm.iterrows():
         row_vector = row.values
-        cos_sim = cosine_similarity([row_vector],[summed_vector])[0][0]
+        cos_sim = max(cosine_similarity([row_vector],[center])[0][0] for center in centers)
         cosine_similarities.append(np.round((cos_sim+1)*50,0))
 
     artist_data['Match'] = cosine_similarities
