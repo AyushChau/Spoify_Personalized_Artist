@@ -1,7 +1,7 @@
 
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
-from sklearn.cluster import KMeans
+from sklearn.cluster import AffinityPropagation
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
@@ -18,10 +18,14 @@ df_user_norm = pd.DataFrame(scaler.fit_transform(temp_user),columns=temp_user.co
 df_artist_norm = pd.DataFrame(scaler.fit_transform(temp_artist),columns=temp_artist.columns)
 
 
-kmeans = KMeans(n_clusters=4)
-kmeans.fit(df_user_norm)
+model = AffinityPropagation(damping=0.90)
+model.fit(df_user_norm)
 
-centers = kmeans.cluster_centers_
+
+centers = model.cluster_centers_
+
+
+print(centers[0])
 
 cosine_similarities = []
 for index,row in df_artist_norm.iterrows():
@@ -30,5 +34,5 @@ for index,row in df_artist_norm.iterrows():
     cosine_similarities.append(np.round((cos_sim+1)*50,0))
     
 
-print(cosine_similarities)
+print(max(cosine_similarities))
     

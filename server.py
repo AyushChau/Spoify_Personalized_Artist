@@ -13,7 +13,7 @@ import aiohttp
 import asyncio
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.cluster import KMeans
+from sklearn.cluster import AffinityPropagation
 
 id = os.getenv("CLIENT_ID")
 secret = os.getenv('CLIENT_SEC')
@@ -136,7 +136,7 @@ def calculate_match():
     df_user_norm = pd.DataFrame(scaler.fit_transform(temp_user),columns=temp_user.columns)
     df_artist_norm = pd.DataFrame(scaler.fit_transform(temp_artist),columns=temp_artist.columns)
 
-    kmeans = KMeans(n_clusters=5)
+    kmeans = AffinityPropagation(damping=0.60)
     kmeans.fit(df_user_norm)
 
     centers = kmeans.cluster_centers_
@@ -144,7 +144,7 @@ def calculate_match():
     cosine_similarities = []
     for index,row in df_artist_norm.iterrows():
         row_vector = row.values
-        cos_sim = max(cosine_similarity([row_vector],[center])[0][0] for center in centers)
+        cos_sim = max(cosine_similarity([row_vector], [center])[0][0] for center in centers)
         cosine_similarities.append(np.round((cos_sim+1)*50,0))
 
     artist_data['Match'] = cosine_similarities

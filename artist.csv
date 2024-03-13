@@ -1,51 +1,51 @@
 ,id,song_name,image,acousticness,danceability,energy,instrumentalness,liveness,loudness,mode,speechiness,tempo,valence
-0,7zkBwgnY2OQwufiEsaVObV,Low Life (feat. The Weeknd),https://i.scdn.co/image/ab67616d0000b273626745b3aa04899001a924ad,0.337,0.722,0.331,0.282,0.146,-7.789,1,0.0726,143.961,0.102
-1,5Y0i08n5NoEA7WnKdxjv4G,Life Is Good (feat. Drake),https://i.scdn.co/image/ab67616d0000b2738a01c7b77a34378a62f46402,0.0706,0.676,0.609,0.0,0.152,-5.831,0,0.481,142.037,0.508
-2,3TirmOKwMAD738H0DOVrB9,Solo,https://i.scdn.co/image/ab67616d0000b2737567ec7d3c07783e4f2111e0,0.0538,0.784,0.486,0.497,0.101,-6.497,0,0.0475,110.964,0.0894
-3,1qAW6h8sGEwSa7veLqzakc,Wicked,https://i.scdn.co/image/ab67616d0000b273626745b3aa04899001a924ad,0.00191,0.718,0.679,0.0104,0.385,-5.899,0,0.0706,157.97,0.205
-4,2R1rmOArCOXCXTdP0R8W7r,I'M DAT N****,https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.0112,0.911,0.573,5.83e-05,0.131,-5.573,1,0.163,144.026,0.145
-5,1c9hQ4jqgVP10plon2B259,PUFFIN ON ZOOTIEZ,https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.0603,0.883,0.657,0.0,0.128,-5.748,1,0.305,124.992,0.284
-6,0pT1DW5RUHelpBMyEgWwaU,Drankin N Smokin,https://i.scdn.co/image/ab67616d0000b27357928e0363878a71692e6a1f,0.0421,0.752,0.658,0.0,0.0927,-6.297,1,0.342,151.951,0.387
-7,5lMmp06Yt5opZrKdszyh8Y,The Percocet & Stripper Joint,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.754,0.625,0.667,0.954,0.135,-5.875,1,0.131,80.046,0.0805
-8,0evYh0thMGFGri2roKou3I,Thought It Was a Drought,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.00761,0.861,0.448,0.000408,0.0902,-8.256,1,0.111,125.022,0.0487
-9,1tjpoAROSHmr9QLb7Ibqoq,F*ck Up Some Commas,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.0698,0.874,0.568,1.38e-05,0.149,-5.896,0,0.224,139.995,0.46
-10,741kUlXoogqH8XSA3XURbE,I Serve the Base,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.011,0.636,0.57,0.00204,0.0677,-5.973,1,0.0571,168.202,0.0883
-11,6LnOiHOWTAGJ5vAN6wBkqc,712PM,https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.0355,0.711,0.686,0.0,0.124,-6.409,0,0.271,146.971,0.536
-12,6tyQ9ovfFByRxW5PekrbvY,Fine China,https://i.scdn.co/image/ab67616d0000b273644c510e8d4c02ae69028297,0.0484,0.656,0.542,0.0,0.126,-7.358,1,0.323,166.111,0.551
-13,0qH1jbTUbpCxZE7AMkjApD,WAIT FOR U (feat. Drake & Tems),https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.314,0.463,0.642,0.0,0.0686,-4.474,1,0.34,83.389,0.339
-14,5qk0TivMEVkujTu7xJLKu7,Mask Off,https://i.scdn.co/image/ab67616d0000b273e0b64c8be3c4e804abcb2696,0.0102,0.833,0.434,0.0219,0.165,-8.795,1,0.431,150.062,0.281
-15,3sDkuBJVMkMOQ70MK8y7yN,Perkys Calling,https://i.scdn.co/image/ab67616d0000b2738a66b2b14cd2bc612a7f38fa,0.0179,0.779,0.547,0.0,0.101,-7.869,1,0.51,156.131,0.0993
-16,1R12cEzkDD40twWg50l3qS,Stick Talk,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.0265,0.729,0.672,0.0,0.244,-6.749,1,0.282,159.903,0.595
-17,3haDFkQVqexHwwxVNU5BHh,Comin Out Strong (feat. The Weeknd),https://i.scdn.co/image/ab67616d0000b2737567ec7d3c07783e4f2111e0,0.29,0.628,0.481,0.0,0.118,-7.775,1,0.475,108.761,0.33
-18,5sT2yQrTJbs0aubnGwuuiw,Realer N Realer,https://i.scdn.co/image/ab67616d0000b273644c510e8d4c02ae69028297,0.0117,0.73,0.465,0.0,0.28,-6.29,1,0.278,148.028,0.367
-19,0qSlymmuAaWtTGwmJmN0NN,Mask Off (feat. Kendrick Lamar) - Remix,https://i.scdn.co/image/ab67616d0000b273e0b64c8be3c4e804abcb2696,0.0122,0.72,0.424,0.0126,0.453,-11.964,1,0.387,150.01,0.228
-20,3h1LpNOGh1NgKVQPetS2Ed,Trap Niggas,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.131,0.813,0.583,3.83e-05,0.142,-6.922,1,0.174,81.018,0.338
-21,5FmUNIsqr4gC4lwJtea8tX,Codeine Crazy,https://i.scdn.co/image/ab67616d0000b273e2528d35865f3114cfe9a16e,0.168,0.745,0.617,0.0,0.389,-7.22,0,0.144,125.98,0.185
-22,1wTH87zcNcR4vn1iJLDv0c,Throw Away,https://i.scdn.co/image/ab67616d0000b273e2528d35865f3114cfe9a16e,0.225,0.479,0.593,0.0,0.207,-7.739,1,0.0613,125.035,0.0373
-23,4U3GckLn3uL7mVFEV48lGk,Too Comfortable,https://i.scdn.co/image/ab67616d0000b273935d8d5369bc55e74a39303e,0.0455,0.935,0.472,0.0,0.19,-9.304,0,0.0575,130.041,0.659
-24,5BtPdQhHPyJIaEqfoj7BlB,March Madness,https://i.scdn.co/image/ab67616d0000b27354a5f3ff02e5b3c3e3bc75f3,0.159,0.5,0.69,0.0,0.104,-4.448,1,0.312,180.206,0.371
-25,5xHeavbeeZoPhXrQczcmuk,56 Nights,https://i.scdn.co/image/ab67616d0000b27354a5f3ff02e5b3c3e3bc75f3,0.107,0.847,0.522,0.000233,0.144,-6.461,1,0.153,122.935,0.276
-26,7KyEgCM3EdWPYi5WHuhc1y,Turn On The Lights,https://i.scdn.co/image/ab67616d0000b273350a058cc9f52e641c1ef9cf,0.0409,0.596,0.574,0.0,0.147,-9.373,0,0.212,131.075,0.439
-27,0urHaAHTNeprwQuj4QzY1Q,Last Breath,https://i.scdn.co/image/ab67616d0000b273240501e829a9a109600cedd2,0.431,0.675,0.758,0.00177,0.377,-4.589,0,0.0368,89.982,0.152
-28,68ra53eElfqZM8G9fuOFSj,Solitaires (feat. Travis Scott),https://i.scdn.co/image/ab67616d0000b273935d8d5369bc55e74a39303e,0.122,0.691,0.632,0.0,0.0646,-7.598,1,0.0513,169.982,0.488
-29,7y8Xlx3c6xpyN0DqYGb8FG,I Won (feat. Kanye West),https://i.scdn.co/image/ab67616d0000b2735fc3d7bc8ea7a703fae2835d,0.743,0.606,0.66,0.0,0.396,-5.788,1,0.258,83.746,0.317
-30,4j5Tpz0Vm8vPNZT0pMyQF5,Where Ya At (feat. Drake),https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.0933,0.813,0.453,0.0,0.14,-6.941,1,0.338,161.997,0.191
-31,3kAyhdS74oZn8nOqifDEf2,D4L,https://i.scdn.co/image/ab67616d0000b273bba7cfaf7c59ff0898acba1f,0.0128,0.718,0.706,0.0,0.352,-5.709,1,0.06,170.004,0.815
-32,1WFkr1TlmOQEgrLndQI6sY,Rich $ex,https://i.scdn.co/image/ab67616d0000b273b2592bea12d840fd096ef965,0.148,0.758,0.482,6.88e-06,0.135,-11.202,0,0.168,111.896,0.0977
-33,0gSLaX91J2Cs9cWXqsRc4X,LOVE YOU BETTER,https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.478,0.709,0.357,0.000294,0.112,-9.289,1,0.214,75.494,0.544
-34,5nAqOY38tJpU1Ad4JWyWzT,Jersey,https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507,0.513,0.758,0.526,0.000457,0.0913,-10.81,0,0.255,146.054,0.312
-35,5C8O7kz7g1wHILy0WwFj7f,Married To The Game,https://i.scdn.co/image/ab67616d0000b2736c8ef06baca6e0eff747f1db,0.0799,0.827,0.544,1.97e-06,0.156,-5.686,1,0.05,143.014,0.175
-36,7yOoJXW6wkpzlJpfjDKhIV,First Off (feat. Travis Scott),https://i.scdn.co/image/ab67616d0000b273e111437ad4fd3f50c8461ec5,0.013,0.734,0.683,0.0,0.28,-6.105,1,0.0776,162.038,0.445
-37,2FMuoG8zdNhyfkCI2ZMgFe,News or Something,https://i.scdn.co/image/ab67616d0000b2738a66b2b14cd2bc612a7f38fa,0.117,0.723,0.545,0.0,0.116,-6.874,0,0.0528,109.893,0.288
-38,2V4l1eFzP7imN2HrWmDHxy,White (feat. Frank Ocean),https://i.scdn.co/image/ab67616d0000b2731dd05262c971257279fcaf61,0.744,0.51,0.0671,0.0,0.166,-12.163,0,0.0689,106.017,0.197
-39,5syD6f38Jhckk5g9DgoCta,MASSAGING ME,https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.000189,0.916,0.453,0.0,0.137,-4.148,1,0.158,145.007,0.152
-40,1t5Xl1inIcsO9hSjToGMd1,I'M ON ONE (feat. Drake),https://i.scdn.co/image/ab67616d0000b27386badd635b69aea887862214,0.0103,0.773,0.707,1.04e-05,0.296,-5.71,1,0.0568,76.977,0.113
-41,3RLti1GL1upFQkbwRa39WQ,Life Is Good (feat. Drake),https://i.scdn.co/image/ab67616d0000b273935d8d5369bc55e74a39303e,0.067,0.795,0.574,0.0,0.15,-6.903,0,0.487,142.053,0.537
-42,3cIsqc3nZZeJpc99WpcY8C,Extra,https://i.scdn.co/image/ab67616d0000b2735cd6070603a9f2e5dcb01d0c,0.294,0.668,0.47,3.92e-06,0.149,-8.059,0,0.0941,105.902,0.173
-43,26oF6WjkOjDIRK9YsdZp2l,Hard To Choose One,https://i.scdn.co/image/ab67616d0000b273935d8d5369bc55e74a39303e,0.011,0.884,0.436,0.0,0.101,-9.922,1,0.255,119.013,0.254
-44,4FqhM1hv7pQ0UbemW90HZL,My Collection,https://i.scdn.co/image/ab67616d0000b2737567ec7d3c07783e4f2111e0,0.729,0.697,0.459,8.35e-06,0.0971,-8.498,0,0.448,80.085,0.409
-45,4hZIolup6cgYhrzzGq46aq,Lay Up,https://i.scdn.co/image/ab67616d0000b2738d16f0ab7e487c47bde1c9d5,0.513,0.794,0.597,0.000934,0.117,-6.552,0,0.228,143.08,0.58
-46,3RnqvBMDzSg3LzQytNuwdE,Hard Work Pays Off,https://i.scdn.co/image/ab67616d0000b273644c510e8d4c02ae69028297,0.327,0.736,0.482,0.0,0.229,-8.242,1,0.196,140.064,0.608
-47,3AALcuKu2uN5VChEChnD7v,LIKE ME (feat. 42 Dugg & Lil Baby),https://i.scdn.co/image/ab67616d0000b2737e83b7d94b668d9ea94fe7ec,0.00119,0.741,0.788,0.0,0.0957,-6.403,1,0.2,160.03,0.307
-48,6FDJwjtEaug5O8F8R1j5A4,Draco,https://i.scdn.co/image/ab67616d0000b273e0b64c8be3c4e804abcb2696,0.000668,0.804,0.456,0.0,0.31,-7.44,1,0.0468,130.014,0.165
-49,29Ema0E7paPed1mqyoDE36,PUFFIN ON ZOOTIEZ,https://i.scdn.co/image/ab67616d0000b2737e83b7d94b668d9ea94fe7ec,0.0603,0.883,0.657,0.0,0.128,-5.748,1,0.305,124.992,0.284
+0,1aNyBuRfvXpehKQenw0VWu,Feeling Good Today,https://i.scdn.co/image/ab67616d0000b2734785d461b7c70d0328400ecd,0.0162,0.79,0.679,0.0,0.0824,-8.388,1,0.286,93.968,0.198
+1,6F4Js3EwifmAKCaOG5030X,Breakfast in Monaco,https://i.scdn.co/image/ab67616d0000b27394fe7b36be4977c9b8505dc3,0.288,0.497,0.73,0.00107,0.246,-6.799,1,0.121,138.589,0.358
+2,7GwnPoaNmKN6WNgXBZM8ui,Smoothies In 1991,https://i.scdn.co/image/ab67616d0000b27327e41ce6f9954c4f833bcde2,0.065,0.661,0.736,0.0,0.124,-6.876,1,0.287,91.917,0.652
+3,1AlsXlzFCcXPhK39rt7MKt,"Corte Madera, CA",https://i.scdn.co/image/ab67616d0000b27394fe7b36be4977c9b8505dc3,0.245,0.59,0.735,0.0,0.274,-6.542,0,0.402,150.827,0.804
+4,79z11cqTyAspHRhJjQl5gq,"Palisades, CA",https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.0924,0.75,0.75,0.000452,0.373,-8.745,0,0.264,130.042,0.711
+5,4WHduG4t2Bf6Lbit8qhBMW,Art Talk,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.362,0.44,0.525,0.0,0.115,-9.983,1,0.349,151.111,0.0985
+6,0o4rl5T5VC5KCFXpLpN8Hn,Let's Drive To Vegas,https://i.scdn.co/image/ab67616d0000b27327e41ce6f9954c4f833bcde2,0.00978,0.576,0.716,0.0,0.135,-6.626,1,0.228,80.012,0.458
+7,62AOPOiMe5qAE0zMYbiQS9,Intercepted (feat. Money Man),https://i.scdn.co/image/ab67616d0000b273f20a880a7e03644ab27f9cd4,0.185,0.633,0.723,0.0,0.17,-6.355,1,0.319,160.406,0.32
+8,03KY38XTJIjCc1hgRBzYRW,Tangible Assets,https://i.scdn.co/image/ab67616d0000b273f20a880a7e03644ab27f9cd4,0.206,0.597,0.921,0.0,0.241,-6.702,0,0.372,140.452,0.756
+9,0utHJ4RKZ63FXOiY7Qlds0,Solid Plan,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.262,0.416,0.613,0.0,0.715,-8.493,0,0.185,135.819,0.74
+10,5JVC2ex8xhoIxq1HVoDTm6,Pop Out (feat. ScHoolboy Q),https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.565,0.772,0.4,1.76e-05,0.111,-8.31,1,0.222,91.997,0.747
+11,3z1vrV7UFQcvTEXkJe5erl,Gas Station Run,https://i.scdn.co/image/ab67616d0000b273951dd2afe5c64998e745f645,0.0916,0.856,0.667,0.0,0.559,-6.714,1,0.262,90.001,0.698
+12,0p98fer5hbRIDyzXUs5qO0,Watering My Plants,https://i.scdn.co/image/ab67616d0000b273798eb7dbee9b7bb3545eea52,0.0541,0.572,0.578,1.12e-05,0.388,-6.68,0,0.266,76.697,0.77
+13,6ufOCBTtagZkcu1h72oxW9,Won't Wait,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.129,0.507,0.554,0.0,0.162,-10.487,0,0.259,78.115,0.274
+14,3zzyj2FVmYs8GQlxDYZpcR,Private Valet,https://i.scdn.co/image/ab67616d0000b27394fe7b36be4977c9b8505dc3,0.191,0.733,0.746,0.000861,0.673,-6.279,1,0.142,80.978,0.59
+15,3jqDIUNeucuWy8dvRDHhVJ,Feels so Right,https://i.scdn.co/image/ab67616d0000b273ce693d9e8d864e159bb4f74d,0.0637,0.485,0.706,0.0,0.191,-8.803,1,0.406,78.151,0.564
+16,2zWSW51P9x4b2NaeINz5QH,Margie's Candy House,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.447,0.402,0.734,3.42e-05,0.143,-8.307,0,0.186,84.01,0.873
+17,4BcAnI8a0xr60SN4lmCCyb,Barragán Lighting,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.163,0.36,0.593,6.78e-05,0.108,-10.94,1,0.258,73.093,0.477
+18,1iJvxe6uxU0afBhkHIDkbH,Mason Cafe,https://i.scdn.co/image/ab67616d0000b27327e41ce6f9954c4f833bcde2,0.0244,0.573,0.821,0.0,0.464,-7.691,1,0.419,112.156,0.811
+19,0rjwOZsofLwlqG18DzQOES,Early Bird,https://i.scdn.co/image/ab67616d0000b27319efcacbd7b286c07dbaf6b1,0.306,0.76,0.616,0.0,0.189,-7.952,1,0.136,96.98,0.551
+20,784fpGs7vOAMtx84GOgazJ,Mission Bay,https://i.scdn.co/image/ab67616d0000b27327e41ce6f9954c4f833bcde2,0.244,0.672,0.803,0.0,0.151,-5.771,1,0.347,153.022,0.672
+21,2kECVtaIKkAjh8wCPftYPB,Without You (Blxst Interlude),https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.0293,0.586,0.532,0.000987,0.147,-9.258,1,0.0458,87.924,0.0932
+22,4iLYBnC9Xp6x7XwZF4uCHW,Summer Reign (feat. Ty Dolla $ign),https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.424,0.397,0.712,3.9e-06,0.416,-10.534,1,0.293,153.354,0.642
+23,6KxX7fjl5LnGm3O9mPoaKm,Chops on the Blade,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.102,0.775,0.487,0.0258,0.194,-12.7,0,0.267,90.539,0.212
+24,7hgid7UqIJbPKlJylUVoPQ,The Great Escape,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.038,0.611,0.58,0.0013,0.394,-10.589,0,0.36,149.022,0.583
+25,5XZgRHhv3sqBKbBqRQuNDT,Sweet Lady,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.137,0.703,0.497,0.000171,0.19,-9.809,0,0.184,78.505,0.816
+26,0Bu0kDcjjQMRgmd9bPTE9U,"Palisades, CA",https://i.scdn.co/image/ab67616d0000b27399cf00300163bdbfcc3853a9,0.0887,0.726,0.746,0.000558,0.382,-8.74,0,0.283,129.99,0.692
+27,3b3PsUFwFJFpoKimwdQPRK,"Another Day, Pt. 2",https://i.scdn.co/image/ab67616d0000b27394fe7b36be4977c9b8505dc3,0.436,0.695,0.676,0.0212,0.231,-7.146,0,0.061,83.005,0.362
+28,0fKXPk4wW4PrIIyguWbOnq,Love of Money,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.00866,0.691,0.721,0.0,0.168,-8.854,1,0.239,150.17,0.508
+29,5YtekiV5iY1XiGc10kiX3L,Ocean Sounds,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.834,0.531,0.502,4.57e-05,0.12,-11.212,0,0.0851,68.699,0.4
+30,4CsSuq8s5kieWgs61INKSF,Ocean Cuisine,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.000563,0.359,0.712,0.000542,0.278,-8.311,0,0.0897,155.395,0.467
+31,2dXdy9ts34ox6q95okyRbT,Made A Way,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.171,0.737,0.485,3.04e-05,0.299,-7.271,1,0.192,88.516,0.43
+32,6dCiWLwOoOleteSTUrLjup,89 Earthquake,https://i.scdn.co/image/ab67616d0000b273d7a7b5fa4158d8117fbb173d,0.426,0.38,0.743,0.00601,0.186,-7.514,0,0.0735,134.563,0.826
+33,3dLn8QcNSHgeKw7JUB4Mod,89 Earthquake,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.172,0.504,0.641,0.000152,0.672,-7.693,0,0.146,72.074,0.302
+34,4cPyvznPQtODctm5pLJ9KL,Til Next Time Love,https://i.scdn.co/image/ab67616d0000b273798eb7dbee9b7bb3545eea52,0.0486,0.537,0.711,6.39e-06,0.0828,-7.669,0,0.546,151.064,0.558
+35,2EHCBiJdqQApcfmQBshogB,Porsches in Spanish,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.423,0.318,0.708,0.0172,0.313,-8.338,0,0.19,69.601,0.753
+36,1M9NubnysCVdQdUB2IN4n2,Glasshouse Knockin',https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.0896,0.642,0.487,0.000425,0.299,-12.972,1,0.334,171.832,0.503
+37,7BsAQkZqyWbxAcZcg0qNSp,Orange Village,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.0857,0.628,0.561,0.734,0.115,-8.371,0,0.0725,82.522,0.0395
+38,65xdeEe8LGgmlKzDa715GR,Stickin' and Movin',https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.00836,0.845,0.766,2.75e-06,0.172,-5.544,0,0.244,97.497,0.653
+39,741pNRi7Aaf2Lm015f62hv,Clocked In,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.258,0.536,0.449,0.000416,0.366,-7.778,0,0.293,86.754,0.473
+40,4x8FxgeHHkYTgoYyY0zOFB,The Good Kind,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.386,0.741,0.594,0.0,0.0819,-6.966,0,0.215,91.011,0.397
+41,5PxeEeFTjJxe88hK3uqpYN,Still Boomin (feat. 2 Chainz),https://i.scdn.co/image/ab67616d0000b27394fe7b36be4977c9b8505dc3,0.151,0.688,0.572,4.41e-05,0.0998,-5.311,1,0.324,180.012,0.613
+42,2asgUvggz2ErsVIpGA2NMe,GRGP,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.197,0.747,0.51,0.0,0.492,-11.935,0,0.409,92.953,0.507
+43,2cp1I2G4lWfb6bzk1uyUvd,Let Me Know,https://i.scdn.co/image/ab67616d0000b273e3b7e6d57c31486336272c7e,0.27,0.543,0.756,0.0,0.216,-7.632,0,0.381,81.287,0.514
+44,5RYTNGJK5BXWaTjeromgsz,What Happened To The World?,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.637,0.586,0.566,0.0,0.633,-8.164,0,0.116,80.506,0.538
+45,6lfmMbTUJvXyn9hft6sy4p,Éxito,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.648,0.482,0.659,0.00118,0.413,-10.74,0,0.288,142.189,0.498
+46,7pSuSjNXBqueRxPKvAQjPR,Turkish Cotton,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.565,0.556,0.629,0.0458,0.387,-10.853,1,0.177,79.753,0.592
+47,3aFcoscjULOJvlIH5s6fGi,Left No Evidence,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.756,0.513,0.631,1.87e-05,0.497,-9.419,0,0.244,131.25,0.762
+48,27kGcbCOVz52X5YnuhBnLz,60 Days,https://i.scdn.co/image/ab67616d0000b27360bc4a5255b323583cefe763,0.126,0.193,0.631,0.00562,0.407,-9.982,1,0.0778,85.41,0.399
+49,0WPlVrscxqWTRgp3lBNRjf,I'm Him,https://i.scdn.co/image/ab67616d0000b27394fe7b36be4977c9b8505dc3,0.165,0.782,0.54,1.3e-06,0.0805,-7.703,1,0.246,94.988,0.375
